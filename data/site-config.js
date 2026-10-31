@@ -1,5 +1,6 @@
 // Single source of truth for company data.
-// EVERY value below is a PLACEHOLDER. Replace with the customer's real data,
+// PROVIDED BY THE OWNER: companyName, phone, phoneHref, region.
+// Everything else is still a PLACEHOLDER. Replace it with the customer's real data,
 // then run `npm run build` to regenerate the HTML pages.
 // Full list of placeholders: docs/PLACEHOLDERS.md
 
@@ -12,7 +13,8 @@ const deepFreeze = (value) => {
 };
 
 export const SITE_CONFIG = deepFreeze({
-  companyName: 'Название компании',
+  // Latin brand name, one word, exactly this spelling.
+  companyName: 'PotolokHub',
   siteUrl: 'https://example.com',
   // false while the site holds placeholders: pages get noindex, robots.txt blocks crawlers.
   // Set to true only after every placeholder is replaced, then rebuild.
@@ -23,13 +25,16 @@ export const SITE_CONFIG = deepFreeze({
 
   // Social preview. A 1200x630 PNG/JPG is needed for most networks (SVG is a placeholder).
   ogImage: '/img/og-default.svg',
-  ogImageAlt: 'Натяжные потолки: схема комнаты со световыми линиями',
+  ogImageAlt: 'PotolokHub — натяжные потолки и стены: схема комнаты со световыми линиями',
 
-  phone: '+7 (000) 000-00-00',
-  phoneHref: '+70000000000',
+  // Owner-provided business phone. Confirm with the client that it is the public number.
+  phone: '+7 (926) 658-17-88',
+  phoneHref: '+79266581788',
   email: 'info@example.com',
 
   messengers: {
+    // PLACEHOLDERS: it is NOT known whether the business phone has WhatsApp/Telegram/MAX.
+    // Do not reuse the phone here until the owner confirms each messenger account.
     // WhatsApp: phone number in international format, digits only
     whatsapp: '70000000000',
     // Telegram: username without @

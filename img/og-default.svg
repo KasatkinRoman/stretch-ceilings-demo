@@ -6,6 +6,7 @@
 <line x1="200" y1="140" x2="1000" y2="140" stroke="#FFCF8A" stroke-width="18" opacity=".6"/>
 <line x1="200" y1="140" x2="1000" y2="140" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round"/>
 <rect x="80" y="300" width="80" height="6" fill="#9A520F"/>
+<text x="80" y="270" font-family="system-ui, Arial, sans-serif" font-size="40" font-weight="700" fill="#9A520F">PotolokHub</text>
 <text x="80" y="400" font-family="system-ui, Arial, sans-serif" font-size="64" font-weight="700" fill="#16181B">Натяжные потолки в Москве</text>
 <text x="80" y="470" font-family="system-ui, Arial, sans-serif" font-size="34" fill="#4B5059">Цена за м², калькулятор, замер</text>
 </svg>
