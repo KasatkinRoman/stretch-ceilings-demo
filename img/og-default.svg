@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#F5F4F0"/>
+<polygon points="0,0 1200,0 960,220 240,220" fill="#E4E1DA"/>
+<line x1="140" y1="70" x2="1060" y2="70" stroke="#FFCF8A" stroke-width="22" opacity=".6"/>
+<line x1="140" y1="70" x2="1060" y2="70" stroke="#FFFDF8" stroke-width="5" stroke-linecap="round"/>
+<line x1="200" y1="140" x2="1000" y2="140" stroke="#FFCF8A" stroke-width="18" opacity=".6"/>
+<line x1="200" y1="140" x2="1000" y2="140" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round"/>
+<rect x="80" y="300" width="80" height="6" fill="#9A520F"/>
+<text x="80" y="400" font-family="system-ui, Arial, sans-serif" font-size="64" font-weight="700" fill="#16181B">Натяжные потолки в Москве</text>
+<text x="80" y="470" font-family="system-ui, Arial, sans-serif" font-size="34" fill="#4B5059">Цена за м², калькулятор, замер</text>
+</svg>

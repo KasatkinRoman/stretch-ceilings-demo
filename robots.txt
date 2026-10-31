@@ -1,0 +1,4 @@
+# Prototype with placeholder data: indexing disabled.
+# Set indexable: true in site/data/site-config.js and rebuild before launch.
+User-agent: *
+Disallow: /
